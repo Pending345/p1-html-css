@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Boekingsformulier</h1>
+
+    <form action="">
+        <label for="firstname">Voornaam</label>
+        <input type="text" name="firstname">
+
+        <br><br>
+
+        <label for="surname">Achternaam</label>
+        <input type="text" name="surname">
+
+        <br><br>
+
+        <label for="gender">Geslacht</label>
+        <input type="radio" name="gender" checked value="man"> Man
+        <input type="radio" name="gender" value="Vrouw"> Vrouw
+
+        <br><br>
+
+        <label for="street">Straat</label>
+        <input type="text" name="street">
+        <label for="homenumber">Huisnummer</label>
+        <input type="number" name="homenumber" min="0">
+
+        <br><br>
+
+        <label for="postcode">Postcode</label>
+        <input type="text" name="postcode">
+
+        <br><br>
+
+        <label for="city">Stad</label>
+        <input type="text" name="city">
+
+        <br><br>
+
+        <label for="country">Land</label>
+        <input type="text" name="country">
+
+        <br><br>
+
+        <label for="socialsecuritynumber">BSN-nummer</label>
+        <input type="text" name="socialsecuritynumber" maxlength="9">
+
+        <br><br>
+
+        <label for="vcountry">Vakantieland</label>
+        <input type="radio" name="vcountry" value="duitsland"> Duitsland
+        <input type="radio" name="vcountry" value="engeland"> Engeland
+        <input type="radio" name="vcountry" value="noorwegen"> Noorwegen
+        <input type="radio" name="vcountry" value="frankrijk"> Frankrijk
+
+        <br><br>
+
+        <label for="date_leave">Datum van vertrek</label>
+        <input type="date" name="date_leave" min="2024-09-18">
+
+        <br><br>
+
+        <label for="date_return">Datum van terugkomst</label>
+        <input type="date" name="date_return">
+
+        <br><br>
+
+        <label for="travellers">Aantal reizigers</label>
+        <input type="number" name="travellers" id="travellers" min="1" max="4">
+
+        <br><br>
+
+        <label for="verzendknop">Boek nu</label>
+        <input type="submit" name="verzendknop">
+
+        <br><br>
+
+        <label for="email">E-mail</label>
+        <input type="text" name="email">
+
+        <br><br>
+
+        <label for="password">Wachtwoord</label>
+        <input type="password" name="password">
+
+       
+    </form>
+</body>
+</html>
