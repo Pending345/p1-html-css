@@ -1,3 +1,12 @@
+header {
+    min-height: 300px;
+    background-image: url("img/Gameconsoles.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
 h1 {
     color: blue;
     font-size: 24px;
