@@ -14,6 +14,8 @@ h1 {
 
 body {
   font-family: "Goldman", cursive;
+  min-height: 100vh;
+  position:relative;
 }
 
 nav {
@@ -26,6 +28,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: sticky;
 }
 nav ul {
   display: flex;
@@ -56,4 +59,13 @@ footer {
   color: white;
   text-align: center;
   font-size: 300%;
+}
+
+div {
+  left: 1100px;
+  width: 700px;
+  height: 50px;
+  padding: 10px;
+  margin: 0;
+  position: fixed;
 }
