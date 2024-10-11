@@ -1,0 +1,33 @@
+.flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+div {
+    padding: 50px;
+    margin: 20px;
+}
+
+.squareB {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.squareG {
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
+
+.squareL {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+.squareR {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
