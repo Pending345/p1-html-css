@@ -1,0 +1,24 @@
+body {
+    font-size: 30px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+div {
+    padding: 30px;
+    margin: 10px;
+    color: blue;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
