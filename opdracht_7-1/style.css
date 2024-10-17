@@ -1,0 +1,103 @@
+nav {
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+    min-height: 5vh;
+    flex-wrap: wrap;
+    margin: auto;
+    background: coral;
+    justify-content: space-between;
+    position: sticky;
+    color: white;
+}
+
+.dropdown {
+    display: none;
+    background-color: white;
+    height: 20px;
+    width: 20px;
+    position: fixed;
+    right: 30px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+
+}
+  
+div {
+
+}
+
+.Titel1 {
+    height: 250px;
+    width: 100%;
+    background-color: gold;
+    padding: 2rem;
+}
+
+.Titel2 {
+    height: 250px;
+    width: 100%;
+    background-color: orange;
+    padding: 2rem;
+}
+
+.Titel3 {
+    height: 250px;
+    width: 100%;
+    background-color: olivedrab;
+    padding: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+    /* For mobile phones: */
+    nav {
+        background-color: mediumslateblue;
+    }
+
+    .dropdown {
+        display: block;
+    }
+
+    .Titel1 {
+        background-color: skyblue;
+        color: white;
+        text-align: center;
+    }
+    
+    .Titel2 {
+        background-color: violet;
+        color: white;
+        text-align: center;
+    }
+    
+    .Titel3 {
+        background-color: darkmagenta;
+        color: white;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    /* For tablets: */
+    nav {
+        background-color: pink;
+    }
+
+    .Titel1 {
+        background-color: salmon;
+        color: white;
+    }
+    
+    .Titel2 {
+        background-color: dodgerblue;
+        color: white;
+    }
+    
+    .Titel3 {
+        background-color: blue;
+        color: white;
+    }
+}
