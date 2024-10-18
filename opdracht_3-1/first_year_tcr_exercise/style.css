@@ -62,8 +62,7 @@ footer {
 }
 
 div {
-  left: 1100px;
-  width: 700px;
+  width: 150px;
   height: 50px;
   padding: 10px;
   margin: 0;
@@ -76,7 +75,7 @@ div {
   background-color: #00a8c7;
   z-index: 1;
   min-width: 5vw;
-  left: 1725px;
+  left: 1750px;
 }
 
 .dropdowntabel a {

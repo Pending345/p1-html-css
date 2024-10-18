@@ -80,7 +80,7 @@ div {
     }
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1200px) and (min-width: 801px) {
     /* For tablets: */
     nav {
         background-color: pink;
